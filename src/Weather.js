@@ -1,7 +1,12 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
+  const apiKey = "f5098deaf242be7ff2c5af1ac2ce51ad";
+  const apiUrl =
+    "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+
   return (
     <div className="Weather mt-5">
       <div className="top-section">
