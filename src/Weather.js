@@ -7,32 +7,45 @@ export default function Weather() {
       <div className="top-section">
         <div className="row">
           <div className="col-2">
-            <button>Current</button>
+            <button className="btn btn-outline-primary current-location">
+              Current
+            </button>
           </div>
           <div className="col-8">
-            <form>
-              <input type="search" placeholder="Enter a city"></input>
-              <button type="submit" className="btn btn-primary">
-                Search
-              </button>
+            <form className="input-group">
+              <input
+                type="search"
+                placeholder="Enter a city"
+                autoFocus="on"
+                className="form-control"
+              />
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-primary search"
+              />
             </form>
           </div>
-          <div className="col-2">
-            <div className="row">
-              <div className="col-1">°C</div>
-              <div className="col-1">°F</div>
+          <div className="col">
+            <div className="row units-button">
+              <div className="col-1 celsius-symbol">
+                <button className="units">°C</button>
+              </div>
+              <div className="col-2 celsius-symbol">
+                <button className="units">°F</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="display-weather mt-5">
-        <div className="row">
-          <div className="col-6 current-weather bottom-sections">
+      <div className="display-weather">
+        <div className="row wrap">
+          <div className="col-4 current-weather bottom-sections">
             <h2>New Zealand</h2>
-            <p>Sunday 23:26</p>
+            <p className="mb-0">Sunday 23:26</p>
             <p>Cloudy</p>
-            <div className="row ">
-              <div className="col-2">
+            <div className="row temperature">
+              <div className="col-5">
                 <h3>10°C</h3>
               </div>
               <div className="col-6">
@@ -43,38 +56,38 @@ export default function Weather() {
               </div>
             </div>
           </div>
-          <div className="col-6 forecast bottom-sections">
+          <div className="col-4  forecast-column bottom-sections">
             <h4>5 DAY FORECAST</h4>
-            <div className="row">
+            <div className="row forecast">
               <div className="row">
-                <div className="col-2">Tue</div>
-                <div className="col-2">12°</div>
-                <div className="col-2">img</div>
-                <div className="col-2">8°</div>
+                <div className="col-3">Tue</div>
+                <div className="col-3">12°</div>
+                <div className="col-3">img</div>
+                <div className="col-3">8°</div>
               </div>
               <div className="row">
-                <div className="col-2">Tue</div>
-                <div className="col-2">12°</div>
-                <div className="col-2">img</div>
-                <div className="col-2">8°</div>
+                <div className="col-3">Tue</div>
+                <div className="col-3">12°</div>
+                <div className="col-3">img</div>
+                <div className="col-3">8°</div>
               </div>
               <div className="row">
-                <div className="col-2">Tue</div>
-                <div className="col-2">12°</div>
-                <div className="col-2">img</div>
-                <div className="col-2">8°</div>
+                <div className="col-3">Tue</div>
+                <div className="col-3">12°</div>
+                <div className="col-3">img</div>
+                <div className="col-3">8°</div>
               </div>
               <div className="row">
-                <div className="col-2">Tue</div>
-                <div className="col-2">12°</div>
-                <div className="col-2">img</div>
-                <div className="col-2">8°</div>
+                <div className="col-3">Tue</div>
+                <div className="col-3">12°</div>
+                <div className="col-3">img</div>
+                <div className="col-3">8°</div>
               </div>
               <div className="row">
-                <div className="col-2">Tue</div>
-                <div className="col-2">12°</div>
-                <div className="col-2">img</div>
-                <div className="col-2">8°</div>
+                <div className="col-3">Tue</div>
+                <div className="col-3">12°</div>
+                <div className="col-3">img</div>
+                <div className="col-3">8°</div>
               </div>
             </div>
           </div>

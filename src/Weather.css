@@ -1,0 +1,73 @@
+.weather {
+  padding: 0 !important;
+}
+
+.top-section {
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 50px;
+  max-width: 580px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  border: none;
+}
+.current-location {
+  margin-right: 10px;
+}
+.current-location:hover {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+.units-button {
+  font-size: 18px;
+}
+.units {
+  border-radius: 27px;
+  background: rgba(62, 166, 227, 0.6);
+  border: none;
+  box-shadow: 1px 1px 1px #212529;
+  margin-right: 0;
+}
+.units:hover {
+  background: rgb(62, 166, 227);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+h3 {
+  font-size: 50px;
+}
+li {
+  list-style: none;
+  font-size: 10px;
+  text-align: start;
+}
+.wrap {
+  justify-content: center;
+}
+.bottom-sections {
+  margin: 10px 5px 10px 0px;
+  border-radius: 50px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  padding: 30px;
+  height: 370px;
+  width: 290px;
+}
+.forecast {
+  display: flex;
+  justify-content: center;
+}
+.forecast-column {
+  float: right;
+  display: inline;
+  position: relative;
+}
+.current-weather {
+  text-align: center;
+  float: left;
+  border: none;
+}
