@@ -6,11 +6,14 @@ export default function App() {
       <h1>Weather App</h1>
       <footer>
         This project was coded by{" "}
-        <a href="https://app.netlify.com/sites/shiny-pie-937396/overview">
+        <a
+          href="https://app.netlify.com/sites/shiny-pie-937396/overview"
+          target="blank"
+        >
           Akanesi Tohotoa
         </a>{" "}
         and is{" "}
-        <a href="https://github.com/Talilotu/react-weather-app">
+        <a href="https://github.com/Talilotu/react-weather-app" target="blank">
           open-sourced on Github
         </a>
       </footer>
