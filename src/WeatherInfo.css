@@ -10,18 +10,19 @@ h3 {
 .description {
   font-style: italic;
   margin-top: -17px;
+  margin-bottom: 30px;
   text-transform: capitalize;
 }
 .units-symbol {
   position: relative;
-  bottom: 80px;
-  left: 25px;
-  font-weight: bold;
-  font-size: 20px;
+  top: -80px;
+  left: 50px;
+  font-weight: 500;
+  font-size: 22px;
 }
 li {
   list-style: none;
-  font-size: 15px;
+  font-size: 12px;
   text-align: start;
 }
 .weather-icon {

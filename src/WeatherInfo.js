@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
           </p>
           <p className="description">{props.data.description}</p>
           <div className="row temperature">
-            <div className="col-2">
+            <div className="col-4">
               <h3>{Math.round(props.data.temperature)}</h3>
               <span className="units-symbol">°C</span>
             </div>
