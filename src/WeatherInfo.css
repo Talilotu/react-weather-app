@@ -3,35 +3,48 @@
 }
 h2 {
   font-size: 40px;
+  line-height: 40px;
 }
-h3 {
-  font-size: 70px;
+.date {
+  font-size: 18px;
 }
 .description {
   font-style: italic;
-  margin-top: -17px;
-  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 25px;
   text-transform: capitalize;
-}
-.units-symbol {
-  position: relative;
-  top: -100px;
-  left: 50px;
+  font-size: 18px;
   font-weight: 500;
-  font-size: 22px;
-}
-li {
-  list-style: none;
-  font-size: 12px;
-  text-align: start;
-}
-.weather-icon {
-  margin-top: -100px;
 }
 .temperature {
   display: flex;
   justify-content: center;
 }
+.main-temperature {
+  font-weight: normal;
+  font-size: 70px;
+  vertical-align: super;
+  line-height: 48px;
+  margin-right: -40px;
+}
+
+.units-symbol {
+  position: relative;
+  top: -45px;
+  left: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+  text-align: start;
+  margin-left: 5px;
+}
+.weather-icon {
+  margin-top: 10px;
+}
+
 .wrap {
   justify-content: center;
 }
@@ -40,7 +53,7 @@ li {
   border-radius: 50px;
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
   padding: 30px;
-  height: 340px;
+  height: 380px;
   width: 290px;
 }
 .forecast {
