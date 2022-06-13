@@ -66,12 +66,12 @@ export default function Weather(props) {
               </form>
             </div>
             <div className="col">
-              <div className="row units-button">
-                <div className="col-1 celsius-symbol">
-                  <button className="units">°C</button>
+              <div className="row">
+                <div className="col-3">
+                  <button className="btn btn-light units celsius">°C</button>
                 </div>
-                <div className="col-2 celsius-symbol">
-                  <button className="units">°F</button>
+                <div className="col-3">
+                  <button className="btn btn-light units fahrenheit">°F</button>
                 </div>
               </div>
             </div>
