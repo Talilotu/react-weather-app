@@ -1,0 +1,53 @@
+.display-weather {
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 60px;
+}
+.description {
+  font-style: italic;
+  margin-top: -17px;
+  text-transform: capitalize;
+}
+.units-symbol {
+  position: relative;
+  bottom: 80px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  font-size: 15px;
+  text-align: start;
+}
+.weather-icon {
+  margin-top: -70px;
+}
+.temperature {
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  justify-content: center;
+}
+.bottom-sections {
+  margin: 10px 5px 10px 0px;
+  border-radius: 50px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  padding: 30px;
+  height: 340px;
+  width: 290px;
+}
+.forecast {
+  display: flex;
+  justify-content: center;
+}
+.forecast-column {
+  float: right;
+  display: inline;
+  position: relative;
+}
