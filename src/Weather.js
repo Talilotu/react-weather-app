@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 import "./Weather.css";
 
 export default function Weather() {
@@ -14,9 +15,11 @@ export default function Weather() {
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
+      date: new Date(response.data.dt * 1000),
       wind: response.data.wind.speed,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
+    setReady(true);
   }
 
   //function updateCity(event) {
@@ -63,7 +66,9 @@ export default function Weather() {
           <div className="row wrap">
             <div className="col-4 current-weather bottom-sections">
               <h2>New Zealand</h2>
-              <p className="mb-0">Sunday 23:26</p>
+              <p className="mb-0">
+                <FormattedDate date={weather.date} />
+              </p>
               <p>{weather.description}</p>
               <div className="row temperature">
                 <div className="col-5">
