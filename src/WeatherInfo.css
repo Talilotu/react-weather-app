@@ -1,14 +1,14 @@
-.display-weather {
+.WeatherInfo {
   text-align: center;
 }
 h2 {
   font-size: 40px;
   line-height: 40px;
 }
-.date {
+.WeatherInfo .date {
   font-size: 18px;
 }
-.description {
+.WeatherInfo .description {
   font-style: italic;
   margin-top: -20px;
   margin-bottom: 25px;
@@ -16,11 +16,11 @@ h2 {
   font-size: 18px;
   font-weight: 500;
 }
-.temperature {
+.WeatherInfo .temperature {
   display: flex;
   justify-content: center;
 }
-.main-temperature {
+.WeatherInfo .main-temperature {
   font-weight: normal;
   font-size: 70px;
   vertical-align: super;
@@ -28,27 +28,27 @@ h2 {
   margin-right: -40px;
 }
 
-.units-symbol {
+.WeatherInfo .units-symbol {
   position: relative;
   top: -45px;
   left: 40px;
   font-weight: 500;
   font-size: 20px;
 }
-li {
+.WeatherInfo li {
   list-style: none;
   font-size: 14px;
   text-align: start;
   margin-left: 5px;
 }
-.weather-icon {
+.WeatherInfo .weather-icon {
   margin-top: 10px;
 }
 
-.wrap {
+.WeatherInfo .wrap {
   justify-content: center;
 }
-.bottom-sections {
+.WeatherInfo .bottom-sections {
   margin: 10px 5px 10px 0px;
   border-radius: 50px;
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
@@ -56,11 +56,11 @@ li {
   height: 380px;
   width: 290px;
 }
-.forecast {
+.WeatherInfo .forecast {
   display: flex;
   justify-content: center;
 }
-.forecast-column {
+.WeatherInfo .forecast-column {
   float: right;
   display: inline;
   position: relative;

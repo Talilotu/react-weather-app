@@ -1,8 +1,8 @@
-.weather {
+.Weather {
   padding: 0 !important;
 }
 
-.top-section {
+.Weather .top-section {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -13,26 +13,26 @@
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
   border: none;
 }
-.current-location {
+.Weather .current-location {
   padding-left: 10px;
 }
-.current-location:hover {
+.Weather .current-location:hover {
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
 
-.form-control {
+.Weather .form-control {
   margin-right: 10px;
 }
 
-.units {
+.Weather .units {
   border-radius: 27px;
   background: rgba(62, 166, 227, 0.6);
   border: none;
   box-shadow: 1px 1px 1px #212529;
   font-size: 15px;
 }
-.celsius {
+.Weather .celsius {
   margin-left: -12px;
 }
 .units:hover {
