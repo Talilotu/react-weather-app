@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
@@ -42,12 +44,12 @@ export default function Weather(props) {
       <div className="Weather mt-5">
         <div className="top-section">
           <div className="row">
-            <div className="col-2">
+            <div className="col-3">
               <button className="btn btn-outline-primary current-location">
-                Current
+                Current <FontAwesomeIcon icon={faLocationDot} />
               </button>
             </div>
-            <div className="col-8">
+            <div className="col-7">
               <form onSubmit={handleSubmit} className="input-group">
                 <input
                   type="search"
