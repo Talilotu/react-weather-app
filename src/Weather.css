@@ -40,3 +40,71 @@
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
+
+.display-weather {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+.Weather .date {
+  font-size: 18px;
+}
+.Weather .description {
+  font-style: italic;
+  margin-top: -20px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Weather .temperature {
+  display: flex;
+  justify-content: center;
+}
+.Weather .main-temperature {
+  font-weight: normal;
+  font-size: 70px;
+  vertical-align: super;
+  line-height: 48px;
+  margin-right: -40px;
+}
+
+.Weather .units-symbol {
+  position: relative;
+  top: -45px;
+  left: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Weather li {
+  list-style: none;
+  font-size: 14px;
+  text-align: start;
+  margin-left: 5px;
+}
+.Weather .weather-icon {
+  margin-top: 10px;
+}
+
+.Weather .wrap {
+  justify-content: center;
+}
+.Weather .bottom-sections {
+  margin: 10px 5px 10px 0px;
+  border-radius: 50px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  padding: 30px;
+  height: 380px;
+  width: 290px;
+}
+.Weather .forecast {
+  display: flex;
+  justify-content: center;
+}
+.Weather .forecast-column {
+  float: right;
+  display: inline;
+  position: relative;
+}

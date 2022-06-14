@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
-import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -77,7 +78,45 @@ export default function Weather(props) {
             </div>
           </div>
         </div>
-        <WeatherInfo data={weather} />
+        <div className="display-weather">
+          <div className="row wrap">
+            <div className="col-4 current-props.data bottom-sections">
+              <h2>{weather.city}</h2>
+              <p className="date">
+                <FormattedDate date={weather.date} />
+              </p>
+              <p className="description">{weather.description}</p>
+              <div className="row temperature">
+                <div className="col-4">
+                  <span className="main-temperature">
+                    {Math.round(weather.temperature)}
+                  </span>
+                  <span className="units-symbol">°C</span>
+                </div>
+                <div className="col-8">
+                  <ul>
+                    <li>Humidity: {weather.humidity}%</li>
+                    <li>Wind: {Math.round(weather.wind)} km/h</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="weather-icon">
+                <WeatherIcon code={weather.icon} />
+              </div>
+            </div>
+            <div className="col-4  forecast-column bottom-sections">
+              <h4>5 DAY FORECAST</h4>
+              <div className="row forecast">
+                <div className="row">
+                  <div className="col-3">Tue</div>
+                  <div className="col-3">12°</div>
+                  <div className="col-3">img</div>
+                  <div className="col-3">8°</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   } else {
