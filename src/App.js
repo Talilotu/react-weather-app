@@ -6,10 +6,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="mt-5 text-center">Weather App</h1>
+        <h1 className="mt-5 text-center">React Weather App</h1>
         <Weather defaultCity="New Zealand" />
 
-        <footer className="mt-5">
+        <footer className="mt-4">
           This project was coded by{" "}
           <a href="https://shiny-pie-937396.netlify.app/" target="blank">
             Akanesi Tohotoa
