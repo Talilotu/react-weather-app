@@ -4,18 +4,18 @@ body {
   color: #f3933d;
 }
 .App {
-  margin-top: 160px;
+  margin-top: 200px;
 }
 
 h1 {
   line-height: 0;
   font-weight: bold;
-  color: #fff6d5;
+  color: #fdf8d8;
 }
 footer,
 footer a {
   text-align: center;
-  color: #fff6d5;
+  color: #fdf8d8;
 }
 footer a:hover {
   color: #f3933d;
