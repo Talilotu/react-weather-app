@@ -12,11 +12,12 @@ h1 {
   font-weight: bold;
   color: #fff6d5;
 }
-footer {
+footer,
+footer a {
   text-align: center;
   color: #fff6d5;
 }
-footer a {
+footer a:hover {
   color: #f3933d;
 }
 @media (max-width: 576px) {
