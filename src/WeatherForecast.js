@@ -12,8 +12,19 @@ export default function WeatherForecast(props) {
   }
 
   if (loaded) {
-    console.log(forecast);
-    return <ForecastDay data={forecast[0]} />;
+    return (
+      <div className="ForecastDay">
+        {forecast.map(function (dailyForecast, index) {
+          if (index < 5) {
+            return (
+              <div className="row forecast" key={index}>
+                <ForecastDay data={dailyForecast} />
+              </div>
+            );
+          }
+        })}
+      </div>
+    );
   } else {
     let lat = props.coordinates.lat;
     let lon = props.coordinates.lon;

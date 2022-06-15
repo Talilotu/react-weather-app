@@ -87,15 +87,16 @@
   height: 380px;
   width: 290px;
 }
-.Weather .forecast {
+.forecast {
   display: flex;
   justify-content: center;
-  padding-top: 5px;
+  padding-top: 10px;
   border-radius: 10px;
   font-size: 20px;
   font-weight: 500;
   background: rgba(243, 147, 61, 0.7);
   color: #38385e;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 576px) {
