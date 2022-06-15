@@ -10,7 +10,7 @@
   border: 1px solid #bbb;
   border-radius: 50px;
   max-width: 580px;
-  background: rgb(55, 55, 92, 0.7);
+  background: rgb(55, 55, 92, 0.8);
   border: none;
 }
 
@@ -82,7 +82,7 @@
 .Weather .bottom-sections {
   margin: 10px 5px 10px 0px;
   border-radius: 50px;
-  background: rgb(55, 55, 92, 0.7);
+  background: rgb(55, 55, 92, 0.9);
   padding: 30px;
   height: 380px;
   width: 290px;
