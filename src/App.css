@@ -1,17 +1,28 @@
-:root {
-  --primary-font: "Poppins", sans-serif;
-}
-
 body {
-  background: linear-gradient(
-    89deg,
-    rgb(21, 74, 189) 0.1%,
-    rgb(26, 138, 211) 51.5%,
-    rgb(72, 177, 234) 100.2%
-  );
-  font-family: var(--primary-font);
+  background-image: url(../background.jpeg);
+  font-family: "Poppins", sans-serif;
+  color: #f3933d;
 }
-
+.App {
+  margin-top: 200px;
+}
+h1 {
+  line-height: 0;
+  font-weight: bold;
+}
 footer {
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-size: 600%;
+  }
+  .App {
+    margin-top: 90px;
+    margin-bottom: 30px !important;
+  }
+  footer {
+    font-size: 10;
+  }
 }

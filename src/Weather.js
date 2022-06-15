@@ -45,37 +45,16 @@ export default function Weather(props) {
       <div className="Weather mt-5">
         <div className="top-section">
           <div className="row">
-            <div className="col-3">
-              <button className="btn btn-outline-primary current-location">
-                Current <FontAwesomeIcon icon={faLocationDot} />
-              </button>
-            </div>
-            <div className="col-7">
-              <form onSubmit={handleSubmit} className="input-group">
-                <input
-                  type="search"
-                  placeholder="Enter a city"
-                  autoFocus="on"
-                  className="form-control"
-                  onChange={updateCity}
-                />
-                <input
-                  type="submit"
-                  value="Search"
-                  className="btn btn-primary search"
-                />
-              </form>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="col-3">
-                  <button className="btn btn-light units celsius">°C</button>
-                </div>
-                <div className="col-3">
-                  <button className="btn btn-light units fahrenheit">°F</button>
-                </div>
-              </div>
-            </div>
+            <form onSubmit={handleSubmit} className="input-group">
+              <input
+                type="search"
+                placeholder="Enter a city"
+                autoFocus="on"
+                className="form-control"
+                onChange={updateCity}
+              />
+              <input type="submit" value="Search" className="btn search" />
+            </form>
           </div>
         </div>
         <div className="display-weather">

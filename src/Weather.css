@@ -10,35 +10,19 @@
   border: 1px solid #bbb;
   border-radius: 50px;
   max-width: 580px;
-  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  background: #38385e;
+  opacity: 0.8;
   border: none;
-}
-.Weather .current-location {
-  padding-left: 10px;
-}
-.Weather .current-location:hover {
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
 }
 
 .Weather .form-control {
-  margin-right: 10px;
+  margin-right: 15px;
 }
-
-.Weather .units {
-  border-radius: 27px;
-  background: rgba(62, 166, 227, 0.6);
-  border: none;
-  box-shadow: 1px 1px 1px #212529;
-  font-size: 15px;
+.search {
+  background: #f3933d;
 }
-.Weather .celsius {
-  margin-left: -12px;
-}
-.units:hover {
-  background: rgb(62, 166, 227);
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
+form {
+  width: 500px !important;
 }
 
 .display-weather {
@@ -94,7 +78,8 @@ h2 {
 .Weather .bottom-sections {
   margin: 10px 5px 10px 0px;
   border-radius: 50px;
-  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  background: #38385e;
+  opacity: 0.9;
   padding: 30px;
   height: 380px;
   width: 290px;
