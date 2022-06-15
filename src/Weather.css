@@ -21,6 +21,9 @@
 .Weather .search {
   background: #f3933d;
 }
+.Weather .search:hover {
+  background: #fff664;
+}
 .Weather form {
   width: 500px !important;
 }
