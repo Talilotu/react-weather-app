@@ -80,17 +80,17 @@ export default function Weather(props) {
                 </div>
               </div>
               <div className="weather-icon">
-                <WeatherIcon code={weather.icon} size={100} />
+                <WeatherIcon code={weather.icon} size={100} color="#f3933d" />
               </div>
             </div>
-            <div className="col-4  forecast-column bottom-sections">
+            <div className="col-4 bottom-sections">
               <h4>5 DAY FORECAST</h4>
               <div className="row forecast">
                 <div className="row">
                   <div className="col-3">Tue</div>
                   <div className="col-3">12°</div>
                   <div className="col-3">
-                    <WeatherIcon code="01d" size={34} />
+                    <WeatherIcon code="01d" size={30} color="#38385e" />
                   </div>
                   <div className="col-3">8°</div>
                 </div>
