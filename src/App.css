@@ -16,13 +16,14 @@ footer {
 
 @media (max-width: 576px) {
   body {
-    background-size: 600%;
+    background-size: 500%;
   }
   .App {
-    margin-top: 90px;
-    margin-bottom: 30px !important;
+    margin-top: 60px;
   }
   footer {
-    font-size: 10;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
   }
 }

@@ -18,17 +18,17 @@
 .Weather .form-control {
   margin-right: 15px;
 }
-.search {
+.Weather .search {
   background: #f3933d;
 }
-form {
+.Weather form {
   width: 500px !important;
 }
 
-.display-weather {
+.Weather .display-weather {
   text-align: center;
 }
-h2 {
+.Weather h2 {
   font-size: 40px;
   line-height: 40px;
 }
@@ -92,4 +92,16 @@ h2 {
   float: right;
   display: inline;
   position: relative;
+}
+
+@media (max-width: 576px) {
+  .Weather {
+    margin-top: 20px !important;
+  }
+  .Weather .top-section {
+    max-width: 320px;
+  }
+  .Weather form {
+    width: 300px !important;
+  }
 }
