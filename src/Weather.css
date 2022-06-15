@@ -10,8 +10,7 @@
   border: 1px solid #bbb;
   border-radius: 50px;
   max-width: 580px;
-  background: #38385e;
-  opacity: 0.8;
+  background: rgb(55, 55, 92, 0.7);
   border: none;
 }
 
@@ -37,11 +36,12 @@
 }
 
 .Weather .date {
+  margin-top: -5px;
   font-size: 18px;
 }
 .Weather .description {
   font-style: italic;
-  margin-top: -20px;
+  margin-top: -5px;
   margin-bottom: 25px;
   text-transform: capitalize;
   font-size: 18px;
@@ -82,8 +82,7 @@
 .Weather .bottom-sections {
   margin: 10px 5px 10px 0px;
   border-radius: 50px;
-  background: #38385e;
-  opacity: 0.9;
+  background: rgb(55, 55, 92, 0.7);
   padding: 30px;
   height: 380px;
   width: 290px;
