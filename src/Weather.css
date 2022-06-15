@@ -94,9 +94,14 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: 500;
-  background: rgba(243, 147, 61, 0.6);
+  background: rgba(243, 147, 61, 0.7);
   color: #38385e;
   margin-bottom: 10px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 @media (max-width: 576px) {
