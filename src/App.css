@@ -22,6 +22,9 @@ footer a {
   body {
     background-size: 500%;
   }
+  h1 {
+    margin-bottom: 30px;
+  }
   .App {
     margin-top: 60px;
   }
