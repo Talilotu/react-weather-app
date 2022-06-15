@@ -6,18 +6,19 @@ body {
 .App {
   margin-top: 160px;
 }
+
 h1 {
   line-height: 0;
   font-weight: bold;
+  color: #fff6d5;
 }
 footer {
   text-align: center;
+  color: #fff6d5;
 }
-
 footer a {
   color: #f3933d;
 }
-
 @media (max-width: 576px) {
   body {
     background-size: 500%;
